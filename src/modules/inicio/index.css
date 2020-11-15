@@ -1,0 +1,40 @@
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+.header {
+  color: whitesmoke;
+  background: black;
+  border-bottom: 2px solid darkgray;
+  margin-bottom: 10px;
+}
+
+.header div.col-auto {
+  padding: 0px;
+}
+
+.myName {
+  font-size: 11px;
+  text-align: left;
+  line-height: 15px;
+  padding: 10px 0px;
+}
+.myName b {
+  font-size: 20px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
